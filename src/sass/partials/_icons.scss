@@ -1,0 +1,45 @@
+.icon {
+  @include transition(all .3s ease-in-out);
+
+  &-settings{
+    max-width: 25px;
+    max-height: 25px;
+<<<<<<< HEAD
+    color: #5BAAF1;
+=======
+>>>>>>> origin/master
+
+    @media (max-width: 600px) {
+      max-width: 20px;
+      max-height: 20px;
+    }
+  }
+  &-eye,
+  &-eye-hidden {
+    max-width: 29px;
+    max-height: 29px;
+
+    @media (max-width: 600px) {
+      max-width: 24px;
+      max-height: 24px;
+    }
+<<<<<<< HEAD
+  }
+  &-add,
+  &-pause,
+  &-play,
+  &-cross {
+    max-width: 25px;
+    max-height: 25px;
+    margin: auto;
+    color: #fff;
+  }
+  &-timer {
+    max-width: 40px;
+    max-height: 40px;
+    margin: auto;
+    color: #fff;
+=======
+>>>>>>> origin/master
+  }
+}
